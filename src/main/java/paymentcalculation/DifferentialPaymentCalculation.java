@@ -12,7 +12,7 @@ public class DifferentialPaymentCalculation implements PaymentCalculation {
         List<Payment> result = new ArrayList<>();
         BigDecimal remaingMainDebt = creditDetail.getAmount();
         BigDecimal monthMainDebtRepayment = creditDetail.getAmount().divide(new BigDecimal(creditDetail.getTerm())
-                .setScale(2), RoundingMode.HALF_UP);
+                .setScale(8), RoundingMode.HALF_UP);
 
         LocalDate currentDate = creditDetail.getCreditExtraditionDate();
         double monthInterestRate = creditDetail.getInterestRate() / 100.0 / 12.0;
@@ -21,11 +21,13 @@ public class DifferentialPaymentCalculation implements PaymentCalculation {
             currentDate = currentDate.plusMonths(1);
 
             BigDecimal amountOfInterestRepayment = remaingMainDebt.multiply(new BigDecimal(monthInterestRate))
-                    .setScale(2, BigDecimal.ROUND_HALF_UP);
+                    .setScale(8, BigDecimal.ROUND_HALF_UP);
 
             remaingMainDebt = remaingMainDebt.subtract(monthMainDebtRepayment);
-            result.add(new Payment(currentDate, monthMainDebtRepayment.add(amountOfInterestRepayment),
-                    monthMainDebtRepayment, amountOfInterestRepayment));
+            result.add(new Payment(currentDate, monthMainDebtRepayment.add(amountOfInterestRepayment)
+                    .setScale(2, RoundingMode.HALF_UP), monthMainDebtRepayment
+                    .setScale(2, RoundingMode.HALF_UP), amountOfInterestRepayment
+                    .setScale(2, RoundingMode.HALF_UP)));
         }
         return result;
     }
