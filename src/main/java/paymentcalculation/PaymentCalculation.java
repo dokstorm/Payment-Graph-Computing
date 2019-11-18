@@ -1,6 +1,5 @@
-package paymentcalculation;
+package main.java.paymentcalculation;
 
-import java.math.BigDecimal;
 import java.util.List;
 
 public interface PaymentCalculation {

@@ -1,4 +1,4 @@
-package paymentcalculation;
+package main.java.paymentcalculation;
 
 public enum PaymentType {
     ANNUITY("Annuity"),

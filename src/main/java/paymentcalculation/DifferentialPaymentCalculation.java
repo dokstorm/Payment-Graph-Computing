@@ -1,7 +1,4 @@
-package paymentcalculation;
-
-import paymentcalculation.Payment;
-import paymentcalculation.PaymentCalculation;
+package main.java.paymentcalculation;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;
@@ -12,10 +9,10 @@ import java.util.List;
 public class DifferentialPaymentCalculation implements PaymentCalculation {
     @Override
     public List<Payment> calculatePayment(CreditDetail creditDetail) {
-        List<Payment> result = new ArrayList<Payment>();
+        List<Payment> result = new ArrayList<>();
         BigDecimal remaingMainDebt = creditDetail.getAmount();
         BigDecimal monthMainDebtRepayment = creditDetail.getAmount().divide(new BigDecimal(creditDetail.getTerm())
-                .setScale(4, BigDecimal.ROUND_HALF_UP), RoundingMode.HALF_UP);
+                .setScale(2), RoundingMode.HALF_UP);
 
         LocalDate currentDate = creditDetail.getCreditExtraditionDate();
         double monthInterestRate = creditDetail.getInterestRate() / 100.0 / 12.0;
@@ -24,7 +21,7 @@ public class DifferentialPaymentCalculation implements PaymentCalculation {
             currentDate = currentDate.plusMonths(1);
 
             BigDecimal amountOfInterestRepayment = remaingMainDebt.multiply(new BigDecimal(monthInterestRate))
-                    .setScale(4, BigDecimal.ROUND_HALF_UP);;
+                    .setScale(2, BigDecimal.ROUND_HALF_UP);
 
             remaingMainDebt = remaingMainDebt.subtract(monthMainDebtRepayment);
             result.add(new Payment(currentDate, monthMainDebtRepayment.add(amountOfInterestRepayment),

@@ -1,9 +1,8 @@
-package paymentcalculation;
+package main.java.paymentcalculation;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;
-import java.util.Calendar;
-import java.util.Date;
+import java.util.Objects;
 
 public class Payment {
     private LocalDate paymentDate;
@@ -48,6 +47,22 @@ public class Payment {
 
     public void setAmountOfInterestRepayment(BigDecimal amountOfInterestRepayment) {
         this.amountOfInterestRepayment = amountOfInterestRepayment;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Payment payment = (Payment) o;
+        return Objects.equals(paymentDate, payment.paymentDate) &&
+                Objects.equals(amountOfPayment, payment.amountOfPayment) &&
+                Objects.equals(amountOfMainDebtRepayment, payment.amountOfMainDebtRepayment) &&
+                Objects.equals(amountOfInterestRepayment, payment.amountOfInterestRepayment);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(paymentDate, amountOfPayment, amountOfMainDebtRepayment, amountOfInterestRepayment);
     }
 
     @Override

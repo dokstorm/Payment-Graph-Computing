@@ -1,6 +1,4 @@
-package paymentcalculation;
-
-import paymentcalculation.PaymentType;
+package main.java.paymentcalculation;
 
 import java.math.BigDecimal;
 
