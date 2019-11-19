@@ -1,0 +1,72 @@
+SonarQube plugins:
+  - Mutation Analysis 1.5 (mutationanalysis)
+  - SonarCSS 1.1.1.1010 (cssfamily)
+  - PMD 3.2.1 (pmd)
+  - 3D Code Metrics 3.7 (citymodel)
+  - Svn 1.9.0.1295 (scmsvn)
+  - GitLab Auth 1.3.2 (authgitlab)
+  - SonarScala 1.5.0.315 (sonarscala)
+  - SonarC# 7.15.0.8572 (csharp)
+  - Russian Pack 1.9 (l10nru)
+  - SonarJava 5.14.0.18788 (java)
+  - LDAP 2.2.0.608 (ldap)
+  - SonarHTML 3.1.0.1615 (web)
+  - SonarFlex 2.5.1.1831 (flex)
+  - SonarXML 2.0.1.2020 (xml)
+  - Rules Compliance Index (RCI) 1.0.1 (rci)
+  - Sonar WebDriver Plugin 1.0.3 (webdriver)
+  - SonarTS 1.9.0.3766 (typescript)
+  - Checkstyle 4.23 (checkstyle)
+  - SonarVB 7.15.0.8572 (vbnet)
+  - YAML Analyzer 1.4.3 (yaml)
+  - SonarPython 1.14.1.3143 (python)
+  - Code Smells 4.0.0 (smells)
+  - GitHub Authentication for SonarQube 1.5.0.870 (authgithub)
+  - JaCoCo 1.0.2.475 (jacoco)
+  - SonarGo 1.1.1.2000 (go)
+  - SonarKotlin 1.5.0.315 (kotlin)
+  - ShellCheck Analyzer 2.1.0 (shellcheck)
+  - jDepend 1.1.1 (jdepend)
+  - SonarJS 5.2.1.7778 (javascript)
+  - SonarRuby 1.5.0.315 (ruby)
+  - Findbugs 3.11.0 (findbugs)
+  - Git 1.8.0.1574 (scmgit)
+  - SAML 2.0 Authentication for SonarQube 1.1.0.181 (authsaml)
+  - SoftVis3D Sonar plugin 1.1.0 (softvis3d)
+  - SonarPHP 3.2.0.4868 (php)
+Global server settings:
+  - sonar.core.id=01D01ACE-AW2MxHXxccmb4pHZ8X-p
+  - sonar.core.startTime=2019-10-03T17:47:06+0300
+Project server settings:
+Project scanner properties:
+  - sonar.binaries=C:\Users\dgatilov\Desktop\projects\PaymentCalculation\target\classes
+  - sonar.groovy.binaries=C:\Users\dgatilov\Desktop\projects\PaymentCalculation\target\classes
+  - sonar.host.url=http://nfoci:9000
+  - sonar.java.binaries=C:\Users\dgatilov\Desktop\projects\PaymentCalculation\target\classes
+  - sonar.java.libraries=C:\Users\dgatilov\.m2\repository\junit\junit\4.12\junit-4.12.jar,C:\Users\dgatilov\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar,C:\Users\dgatilov\.m2\repository\org\sonarsource\scanner\maven\sonar-maven-plugin\3.7.0.1746\sonar-maven-plugin-3.7.0.1746.jar,C:\Users\dgatilov\.m2\repository\org\sonatype\plexus\plexus-sec-dispatcher\1.4\plexus-sec-dispatcher-1.4.jar,C:\Users\dgatilov\.m2\repository\org\sonatype\plexus\plexus-cipher\1.4\plexus-cipher-1.4.jar,C:\Users\dgatilov\.m2\repository\org\codehaus\plexus\plexus-utils\3.2.1\plexus-utils-3.2.1.jar,C:\Users\dgatilov\.m2\repository\org\sonarsource\scanner\api\sonar-scanner-api\2.14.0.2002\sonar-scanner-api-2.14.0.2002.jar,C:\Users\dgatilov\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar
+  - sonar.java.source=1.8
+  - sonar.java.target=1.8
+  - sonar.java.test.binaries=C:\Users\dgatilov\Desktop\projects\PaymentCalculation\target\test-classes
+  - sonar.java.test.libraries=C:\Users\dgatilov\Desktop\projects\PaymentCalculation\target\classes,C:\Users\dgatilov\.m2\repository\junit\junit\4.12\junit-4.12.jar,C:\Users\dgatilov\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar,C:\Users\dgatilov\.m2\repository\org\sonarsource\scanner\maven\sonar-maven-plugin\3.7.0.1746\sonar-maven-plugin-3.7.0.1746.jar,C:\Users\dgatilov\.m2\repository\org\sonatype\plexus\plexus-sec-dispatcher\1.4\plexus-sec-dispatcher-1.4.jar,C:\Users\dgatilov\.m2\repository\org\sonatype\plexus\plexus-cipher\1.4\plexus-cipher-1.4.jar,C:\Users\dgatilov\.m2\repository\org\codehaus\plexus\plexus-utils\3.2.1\plexus-utils-3.2.1.jar,C:\Users\dgatilov\.m2\repository\org\sonarsource\scanner\api\sonar-scanner-api\2.14.0.2002\sonar-scanner-api-2.14.0.2002.jar,C:\Users\dgatilov\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar
+  - sonar.junit.reportPaths=C:\Users\dgatilov\Desktop\projects\PaymentCalculation\target\surefire-reports
+  - sonar.junit.reportsPath=C:\Users\dgatilov\Desktop\projects\PaymentCalculation\target\surefire-reports
+  - sonar.libraries=C:\Users\dgatilov\.m2\repository\junit\junit\4.12\junit-4.12.jar,C:\Users\dgatilov\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar,C:\Users\dgatilov\.m2\repository\org\sonarsource\scanner\maven\sonar-maven-plugin\3.7.0.1746\sonar-maven-plugin-3.7.0.1746.jar,C:\Users\dgatilov\.m2\repository\org\sonatype\plexus\plexus-sec-dispatcher\1.4\plexus-sec-dispatcher-1.4.jar,C:\Users\dgatilov\.m2\repository\org\sonatype\plexus\plexus-cipher\1.4\plexus-cipher-1.4.jar,C:\Users\dgatilov\.m2\repository\org\codehaus\plexus\plexus-utils\3.2.1\plexus-utils-3.2.1.jar,C:\Users\dgatilov\.m2\repository\org\sonarsource\scanner\api\sonar-scanner-api\2.14.0.2002\sonar-scanner-api-2.14.0.2002.jar,C:\Users\dgatilov\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar
+  - sonar.links.ci=
+  - sonar.links.homepage=
+  - sonar.links.issue=
+  - sonar.links.scm=
+  - sonar.links.scm_dev=
+  - sonar.moduleKey=com:payment-calculation
+  - sonar.projectBaseDir=C:\Users\dgatilov\Desktop\projects\PaymentCalculation
+  - sonar.projectBuildDir=C:\Users\dgatilov\Desktop\projects\PaymentCalculation\target
+  - sonar.projectKey=com:payment-calculation
+  - sonar.projectName=payment-calculation
+  - sonar.projectVersion=1.0-SNAPSHOT
+  - sonar.scanner.app=ScannerMaven
+  - sonar.scanner.appVersion=3.7.0.1746/3.6.2
+  - sonar.scm.disabled=true
+  - sonar.sourceEncoding=windows-1251
+  - sonar.sources=C:\Users\dgatilov\Desktop\projects\PaymentCalculation\pom.xml,C:\Users\dgatilov\Desktop\projects\PaymentCalculation\src\main\java
+  - sonar.tests=C:\Users\dgatilov\Desktop\projects\PaymentCalculation\src\test\java
+  - sonar.verbose=true
+  - sonar.working.directory=C:\Users\dgatilov\Desktop\projects\PaymentCalculation\target\sonar

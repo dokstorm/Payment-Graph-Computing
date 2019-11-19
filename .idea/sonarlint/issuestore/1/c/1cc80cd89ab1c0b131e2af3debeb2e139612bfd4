@@ -1,0 +1,56 @@
+
+=squid:S2111$"!Use "BigDecimal.valueOf" instead.(¸øÃÜÿÿÿÿÿ
+8squid:S2111"!Use "BigDecimal.valueOf" instead.(ÃõÁÊ
+>squid:S2111P"!Use "BigDecimal.valueOf" instead.(ÁªÄH8¦»¯÷ç-
+Rsquid:EmptyStatementUsageCheckZ"Remove this empty statement.(Áã“³şÿÿÿÿ8³Ó¤÷ç-
+8squid:S2111"!Use "BigDecimal.valueOf" instead.(¦®ó
+Dsquid:S2111`"!Use "BigDecimal.valueOf" instead.(ûù›şÿÿÿÿ8³Ó¤÷ç-
+Dsquid:S2111f"!Use "BigDecimal.valueOf" instead.(†¾³øÿÿÿÿ8èó»÷ç-
+8squid:S2111."!Use "BigDecimal.valueOf" instead.(çŸ¤ª
+Dsquid:S2111o"!Use "BigDecimal.valueOf" instead.(­Å×—üÿÿÿÿ8³Ó¤÷ç-
+8squid:S21111"!Use "BigDecimal.valueOf" instead.(ÅåÆº
+Dsquid:S2111c"!Use "BigDecimal.valueOf" instead.(Éí´şşÿÿÿÿ8³Ó¤÷ç-
+=squid:S2111 "!Use "BigDecimal.valueOf" instead.(ĞèÔ©şÿÿÿÿ
+=squid:S2111#"!Use "BigDecimal.valueOf" instead.(›³ùøÿÿÿÿ
+Dsquid:S2111Z"!Use "BigDecimal.valueOf" instead.(Áã“³şÿÿÿÿ8êï¼÷ç-
+Dsquid:S2111O"!Use "BigDecimal.valueOf" instead.(›ÒÍÚüÿÿÿÿ8³Ó¤÷ç-
+8squid:S21110"!Use "BigDecimal.valueOf" instead.(âÑ…
+8squid:S2111:"!Use "BigDecimal.valueOf" instead.(”øƒ¿
+?squid:S2111Q"!Use "BigDecimal.valueOf" instead.(×öœˆ8³Ó¤÷ç-
+?squid:S2111S"!Use "BigDecimal.valueOf" instead.(÷†à†8¦Á²÷ç-
+Dsquid:S2111W"!Use "BigDecimal.valueOf" instead.(Ÿ¼¤üÿÿÿÿ8ô¹÷ç-
+Dsquid:S2111R"!Use "BigDecimal.valueOf" instead.(õ×Æ¢şÿÿÿÿ8÷Ü°÷ç-
+8squid:S2111/"!Use "BigDecimal.valueOf" instead.(šñÊ
+Dsquid:S2111V"!Use "BigDecimal.valueOf" instead.(˜œ÷Âûÿÿÿÿ8…Ú÷ç-
+?squid:S2111L"!Use "BigDecimal.valueOf" instead.(ˆ×Çå8¤Ø´÷ç-
+?squid:S2111e"!Use "BigDecimal.valueOf" instead.(ÜÇ¶8³Ó¤÷ç-
+7squid:S2111,"!Use "BigDecimal.valueOf" instead.(Ë³úm
+=squid:S2111)"!Use "BigDecimal.valueOf" instead.(Ë…ëäøÿÿÿÿ
+>squid:S2111K"!Use "BigDecimal.valueOf" instead.(ïºõ8³Ó¤÷ç-
+=squid:S2111"!Use "BigDecimal.valueOf" instead.(Íƒ´ÿÿÿÿÿ
+?squid:S2111M"!Use "BigDecimal.valueOf" instead.(©‰î8³Ó¤÷ç-
+Ksquid:EmptyStatementUsageCheck'"Remove this empty statement.(¨Éò úÿÿÿÿ
+Dsquid:S2111g"!Use "BigDecimal.valueOf" instead.(ıŸÌÕùÿÿÿÿ8èó»÷ç-
+?squid:S2111N"!Use "BigDecimal.valueOf" instead.(Øš8œ®÷ç-
+Dsquid:S2111^"!Use "BigDecimal.valueOf" instead.(·Øñ†ıÿÿÿÿ8³Ó¤÷ç-
+7squid:S2111"!Use "BigDecimal.valueOf" instead.(¥ÛóY
+?squid:S2111J"!Use "BigDecimal.valueOf" instead.(Àæñı8³Ó¤÷ç-
+?squid:S2111b"!Use "BigDecimal.valueOf" instead.(†¤Öš8³Ó¤÷ç-
+8squid:S2111("!Use "BigDecimal.valueOf" instead.(ê½„Ô
+8squid:S2111"!Use "BigDecimal.valueOf" instead.(¨Ó‚Ã
+Dsquid:S2111\"!Use "BigDecimal.valueOf" instead.(é•İıÿÿÿÿ8³Ó¤÷ç-
+Dsquid:S2111d"!Use "BigDecimal.valueOf" instead.(Òè‹±şÿÿÿÿ8èîÁ÷ç-
+8squid:S2111"!Use "BigDecimal.valueOf" instead.(›×»
+?squid:S2111a"!Use "BigDecimal.valueOf" instead.(ŸÑÙ•8³Ó¤÷ç-
+Dsquid:S2111T"!Use "BigDecimal.valueOf" instead.(íªÄ„úÿÿÿÿ8³Ó¤÷ç-
+?squid:S2111_"!Use "BigDecimal.valueOf" instead.(ÆØ †8³Ó¤÷ç-
+=squid:S2111-"!Use "BigDecimal.valueOf" instead.(óû—ïüÿÿÿÿ
+8squid:S2111!"!Use "BigDecimal.valueOf" instead.(ùùø†
+7squid:S2111+"!Use "BigDecimal.valueOf" instead.(®—ğS
+7squid:S21112"!Use "BigDecimal.valueOf" instead.(óğŠy
+=squid:S2111"!Use "BigDecimal.valueOf" instead.(¤ç·ÿÿÿÿÿ
+=squid:S2111""!Use "BigDecimal.valueOf" instead.(İ²êáüÿÿÿÿ
+?squid:S2111]"!Use "BigDecimal.valueOf" instead.(İßÒã8³Ó¤÷ç-
+=squid:S2111*"!Use "BigDecimal.valueOf" instead.(×¥‹¦úÿÿÿÿ
+?squid:S2111["!Use "BigDecimal.valueOf" instead.(Ü»«8³Ó¤÷ç-
+Dsquid:S2111U"!Use "BigDecimal.valueOf" instead.(©éÏÓüÿÿÿÿ8¿çÚ÷ç-

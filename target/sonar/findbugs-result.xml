@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="3.1.12" sequence="0" timestamp="1574162974593" analysisTimestamp="1574162993469" release="">
+  <Project>
+    <Jar>C:\Users\dgatilov\Desktop\projects\PaymentCalculation\target\classes\paymentcalculation\AnnuityPaymentCalculation.class</Jar>
+    <Jar>C:\Users\dgatilov\Desktop\projects\PaymentCalculation\target\classes\paymentcalculation\CreditDetail.class</Jar>
+    <Jar>C:\Users\dgatilov\Desktop\projects\PaymentCalculation\target\classes\paymentcalculation\DifferentialPaymentCalculation.class</Jar>
+    <Jar>C:\Users\dgatilov\Desktop\projects\PaymentCalculation\target\classes\paymentcalculation\InterestRateCalculation.class</Jar>
+    <Jar>C:\Users\dgatilov\Desktop\projects\PaymentCalculation\target\classes\paymentcalculation\InterestRateCalculationImpl.class</Jar>
+    <Jar>C:\Users\dgatilov\Desktop\projects\PaymentCalculation\target\classes\paymentcalculation\Payment.class</Jar>
+    <Jar>C:\Users\dgatilov\Desktop\projects\PaymentCalculation\target\classes\paymentcalculation\PaymentCalculation.class</Jar>
+    <Jar>C:\Users\dgatilov\Desktop\projects\PaymentCalculation\target\classes\paymentcalculation\PaymentType.class</Jar>
+    <AuxClasspathEntry>C:\Users\dgatilov\Desktop\projects\PaymentCalculation\target\classes</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\dgatilov\.m2\repository\junit\junit\4.12\junit-4.12.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\dgatilov\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\dgatilov\.m2\repository\org\sonarsource\scanner\maven\sonar-maven-plugin\3.7.0.1746\sonar-maven-plugin-3.7.0.1746.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\dgatilov\.m2\repository\org\sonatype\plexus\plexus-sec-dispatcher\1.4\plexus-sec-dispatcher-1.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\dgatilov\.m2\repository\org\sonatype\plexus\plexus-cipher\1.4\plexus-cipher-1.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\dgatilov\.m2\repository\org\codehaus\plexus\plexus-utils\3.2.1\plexus-utils-3.2.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\dgatilov\.m2\repository\org\sonarsource\scanner\api\sonar-scanner-api\2.14.0.2002\sonar-scanner-api-2.14.0.2002.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\dgatilov\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\dgatilov\Desktop\projects\PaymentCalculation\target\sonar\findbugs\annotations.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\dgatilov\Desktop\projects\PaymentCalculation\target\sonar\findbugs\jsr305.jar</AuxClasspathEntry>
+    <WrkDir>C:\Users\dgatilov\Desktop\projects\PaymentCalculation\target\sonar</WrkDir>
+  </Project>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Tue, 19 Nov 2019 15:29:34 +0400" total_classes="8" referenced_classes="35" total_bugs="0" total_size="160" num_packages="1" java_version="1.8.0_231" vm_version="25.231-b11" cpu_seconds="5.25" clock_seconds="1.56" peak_mbytes="382.24" alloc_mbytes="3612.50" gc_seconds="0.04">
+    <FileStats path="paymentcalculation/AnnuityPaymentCalculation.java" bugCount="0" size="23"/>
+    <FileStats path="paymentcalculation/CreditDetail.java" bugCount="0" size="39"/>
+    <FileStats path="paymentcalculation/DifferentialPaymentCalculation.java" bugCount="0" size="20"/>
+    <FileStats path="paymentcalculation/InterestRateCalculation.java" bugCount="0" size="2"/>
+    <FileStats path="paymentcalculation/InterestRateCalculationImpl.java" bugCount="0" size="6"/>
+    <FileStats path="paymentcalculation/Payment.java" bugCount="0" size="45"/>
+    <FileStats path="paymentcalculation/PaymentCalculation.java" bugCount="0" size="2"/>
+    <FileStats path="paymentcalculation/PaymentType.java" bugCount="0" size="23"/>
+    <PackageStats package="paymentcalculation" total_bugs="0" total_types="8" total_size="160">
+      <ClassStats class="paymentcalculation.AnnuityPaymentCalculation" sourceFile="AnnuityPaymentCalculation.java" interface="false" size="23" bugs="0"/>
+      <ClassStats class="paymentcalculation.CreditDetail" sourceFile="CreditDetail.java" interface="false" size="39" bugs="0"/>
+      <ClassStats class="paymentcalculation.DifferentialPaymentCalculation" sourceFile="DifferentialPaymentCalculation.java" interface="false" size="20" bugs="0"/>
+      <ClassStats class="paymentcalculation.InterestRateCalculation" sourceFile="InterestRateCalculation.java" interface="true" size="2" bugs="0"/>
+      <ClassStats class="paymentcalculation.InterestRateCalculationImpl" sourceFile="InterestRateCalculationImpl.java" interface="false" size="6" bugs="0"/>
+      <ClassStats class="paymentcalculation.Payment" sourceFile="Payment.java" interface="false" size="45" bugs="0"/>
+      <ClassStats class="paymentcalculation.PaymentCalculation" sourceFile="PaymentCalculation.java" interface="true" size="2" bugs="0"/>
+      <ClassStats class="paymentcalculation.PaymentType" sourceFile="PaymentType.java" interface="false" size="23" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="189" invocations="408" avgMicrosecondsPerInvocation="464" maxMicrosecondsPerInvocation="2109" standardDeviationMicrosecondsPerInvocation="228"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="131" invocations="405" avgMicrosecondsPerInvocation="323" maxMicrosecondsPerInvocation="12154" standardDeviationMicrosecondsPerInvocation="757"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="45" invocations="35" avgMicrosecondsPerInvocation="1310" maxMicrosecondsPerInvocation="9495" standardDeviationMicrosecondsPerInvocation="2288"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.taintanalysis.TaintDataflowEngine" totalMilliseconds="33" invocations="35" avgMicrosecondsPerInvocation="956" maxMicrosecondsPerInvocation="10873" standardDeviationMicrosecondsPerInvocation="2256"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="32" invocations="128" avgMicrosecondsPerInvocation="250" maxMicrosecondsPerInvocation="3573" standardDeviationMicrosecondsPerInvocation="403"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.MethodGenFactory" totalMilliseconds="31" invocations="37" avgMicrosecondsPerInvocation="842" maxMicrosecondsPerInvocation="27781" standardDeviationMicrosecondsPerInvocation="4491"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.injection.custom.CustomInjectionDetector" totalMilliseconds="29" invocations="8" avgMicrosecondsPerInvocation="3636" maxMicrosecondsPerInvocation="28191" standardDeviationMicrosecondsPerInvocation="9281"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="24" invocations="370" avgMicrosecondsPerInvocation="66" maxMicrosecondsPerInvocation="1247" standardDeviationMicrosecondsPerInvocation="124"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.PredictableRandomDetector" totalMilliseconds="23" invocations="8" avgMicrosecondsPerInvocation="2972" maxMicrosecondsPerInvocation="22958" standardDeviationMicrosecondsPerInvocation="7554"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ValueNumberDataflowFactory" totalMilliseconds="23" invocations="35" avgMicrosecondsPerInvocation="668" maxMicrosecondsPerInvocation="10141" standardDeviationMicrosecondsPerInvocation="1722"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.CFGFactory" totalMilliseconds="22" invocations="37" avgMicrosecondsPerInvocation="607" maxMicrosecondsPerInvocation="14225" standardDeviationMicrosecondsPerInvocation="2289"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="22" invocations="35" avgMicrosecondsPerInvocation="636" maxMicrosecondsPerInvocation="3739" standardDeviationMicrosecondsPerInvocation="890"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="22" invocations="77" avgMicrosecondsPerInvocation="288" maxMicrosecondsPerInvocation="12126" standardDeviationMicrosecondsPerInvocation="1402"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.TypeDataflowFactory" totalMilliseconds="21" invocations="35" avgMicrosecondsPerInvocation="616" maxMicrosecondsPerInvocation="8823" standardDeviationMicrosecondsPerInvocation="1566"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.IsNullValueDataflowFactory" totalMilliseconds="19" invocations="35" avgMicrosecondsPerInvocation="570" maxMicrosecondsPerInvocation="6321" standardDeviationMicrosecondsPerInvocation="1214"/>
+      <ClassProfile name="edu.umd.cs.findbugs.ba.npe.NullDerefAndRedundantComparisonFinder" totalMilliseconds="18" invocations="35" avgMicrosecondsPerInvocation="526" maxMicrosecondsPerInvocation="6816" standardDeviationMicrosecondsPerInvocation="1206"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="17" invocations="35" avgMicrosecondsPerInvocation="501" maxMicrosecondsPerInvocation="3657" standardDeviationMicrosecondsPerInvocation="864"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FunctionsThatMightBeMistakenForProcedures" totalMilliseconds="17" invocations="35" avgMicrosecondsPerInvocation="491" maxMicrosecondsPerInvocation="4765" standardDeviationMicrosecondsPerInvocation="1090"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.UnconditionalValueDerefDataflowFactory" totalMilliseconds="14" invocations="35" avgMicrosecondsPerInvocation="410" maxMicrosecondsPerInvocation="2586" standardDeviationMicrosecondsPerInvocation="662"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.OverridingEqualsNotSymmetrical" totalMilliseconds="13" invocations="35" avgMicrosecondsPerInvocation="385" maxMicrosecondsPerInvocation="6161" standardDeviationMicrosecondsPerInvocation="1053"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History></History>
+</BugCollection>

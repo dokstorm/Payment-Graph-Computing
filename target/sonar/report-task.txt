@@ -1,0 +1,6 @@
+projectKey=com:payment-calculation
+serverUrl=http://nfoci:9000
+serverVersion=7.9.1.27448
+dashboardUrl=http://nfoci:9000/dashboard?id=com%3Apayment-calculation
+ceTaskId=AW6DbRpSDxI7H8rwoc6z
+ceTaskUrl=http://nfoci:9000/api/ce/task?id=AW6DbRpSDxI7H8rwoc6z
